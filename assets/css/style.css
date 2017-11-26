@@ -1,0 +1,102 @@
+* {
+    margin: 0 auto;
+    list-style-type: none;
+}
+
+.clearfix:after,
+.clearfix:before {
+    display: table;
+    content: '';
+}
+.clearfix:after {
+    clear: both;
+}
+.promo-bar {
+    background-color: black;
+}
+.promo-bar p{
+    padding-top: 19px;
+    padding-bottom: 19px;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-left: auto;
+    margin-right: auto;
+    letter-spacing: 4.4px;
+    text-align: center;
+}
+
+.cross {
+    color: white;
+    position: absolute;
+    right: 10px;
+    top: 0;
+    font-size: 61px;
+
+}
+.slider {
+    background-image: url("../img/man.png");
+    height: 597px;
+}
+.logos {
+    float: left;
+}
+.logo1 {
+    border-right: 3px solid black;
+    padding-right: 19px;
+}
+.logo2 {
+    position: relative;
+    bottom: 6px;
+    margin-left: 13px;
+}
+.ion-ios-cart {
+    color: black;
+    font-size: 30px;
+}
+.menu {
+    padding-top: 12px;
+    padding-left: 68px;
+    padding-bottom: 14px;
+    background-color: rgba(255, 255, 255, 0.4)
+}
+.menu ul li {
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    display: inline-block;
+}
+.items {
+    float: right;
+    margin-top: 5px;
+    margin-right: 68px;
+}
+.items li {
+    margin-left: 32px;
+    cursor: pointer;
+}
+.filler1 {
+    padding-top: 10% ;
+    text-align: center ;
+}
+.filler1 h1 {
+    font-family: 'BRUSHSTRIKE', sans-serif;
+    font-size: 90px;
+    color: white;
+}
+.filler1 h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    color: white;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+.filler1 h3 {
+    text-align: right;
+    color: white;
+font-size: 50px;
+}
+.filler1 i {
+}
